@@ -11,7 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-This package can be used to access the camera of a device and take photos of it.
+This package can be used to access the camera of a device from take photos of it.
 
 ## Features
 
