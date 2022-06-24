@@ -1,7 +1,7 @@
 name: click_rec_camera
-description: A new Flutter package project.
+description: A  Flutter package for Clicking Photos and recording video.
 version: 0.0.1
-homepage:
+homepage: https://github.com/abinvs-2019/click_rec_camera_pacakge
 
 environment:
   sdk: ">=2.16.1 <3.0.0"

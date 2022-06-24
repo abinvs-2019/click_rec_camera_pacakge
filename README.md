@@ -11,29 +11,38 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+This package can be used to access the camera of a device and take photos of it.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+This package allows you to access camera of a device.
+
+Widgets and the functions are ready to use out of the box
+
+One Click : Just a click on the widget.
+Recording video : Currently under development
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Just call the widget class, And tada the camera is ready.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+Simply call the Widget
 
 ```dart
-const like = 'sample';
+class CameraScreen extends StatelessWidget {
+  const CameraScreen({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    /// return the widget
+    return CameraScreen();
+  }
+}
+
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+PR's are most welcome.
